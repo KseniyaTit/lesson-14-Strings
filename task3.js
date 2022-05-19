@@ -22,12 +22,8 @@ function words(str){
         sentenceType ="narrative"
     }else if(d === undefined){
         sentenceType = 'null'
-    }
-
-    return ({allSymbols,
+     } return ({allSymbols,
          sentenceType,
          symbolsWithoutSpace,
          quentityOfWords})
-
-
 } 

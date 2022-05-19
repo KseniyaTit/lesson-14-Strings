@@ -6,7 +6,7 @@ function register(str){
         }else {
             newStr +=str[i].toLowerCase()
         }
-        }
+    }
 return newStr
     }
 
